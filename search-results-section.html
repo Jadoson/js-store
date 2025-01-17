@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <div class="search-results">
+    <div class="top-info-bar">
+      <div class="top-links">
+        <div>Доставка и оплата</div>
+        <div>Гарантия и возврат</div>
+        <div>EN</div>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header-content">
+        <img src="./img/Logo.png" alt="Company Logo" class="logo" />
+
+        <div class="menu-icon">
+          <img src="./img/Menu.png" alt="Menu Icon" class="menu-icon" />
+        </div>
+        <nav class="nav-menu">
+          <div class="nav-item">Каталог</div>
+          <div class="nav-item">О компании</div>
+          <div class="nav-item">Контакты</div>
+        </nav>
+
+        <div class="search-bar">
+          <div class="search-wrapper">
+            <img
+              src="./img/search1600.png"
+              alt="Search Icon"
+              class="search-icon"
+            />
+            <input type="text" class="search-input" placeholder="Лампы" />
+          </div>
+          <div class="cart-wrapper">
+            <div class="cart-button">
+              <div style="position: relative">
+                <img src="./img/Bag.png" alt="Bag Icon" class="cart-icon" />
+                <div class="cart-count">3</div>
+              </div>
+              Корзина
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="search-results-content">
+      <h1 class="results-title">Результаты поиска</h1>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image-wrapper">
+            <img
+              src="./img/lamp_markt.png"
+              alt="Встраиваемый светильник Markt"
+              class="product-image"
+            />
+            <div class="sale-badge">Акция</div>
+            <button class="details-button">Подробнее</button>
+          </div>
+          <div class="product-details">
+            <h2 class="product-title">Встраиваемый светильник Markt</h2>
+            <div class="price-wrapper">
+              <div class="discount-price">
+                <div>3 490</div>
+                <div>₽</div>
+              </div>
+              <div class="original-price">
+                <div>5 060</div>
+                <div>₽</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image-wrapper">
+            <img
+              src="./img/lamp_arg.png"
+              alt="Линейный светильник ARG"
+              class="product-image"
+            />
+            <button class="details-button">Подробнее</button>
+          </div>
+          <div class="product-details">
+            <h2 class="product-title">Линейный светильник ARG</h2>
+
+            <div class="price-wrapper">
+              <div class="current-price">
+                <div>6 700</div>
+                <div>₽</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image-wrapper">
+            <img
+              src="./img/lamp.png"
+              alt="Сведодиодный светильник"
+              class="product-image"
+            />
+            <div class="sale-badge">Акция</div>
+            <button class="details-button">Подробнее</button>
+          </div>
+          <div class="product-details">
+            <h2 class="product-title">Сведодиодный светильник</h2>
+            <div class="price-wrapper">
+              <div class="discount-price">
+                <div>5 060</div>
+                <div>₽</div>
+              </div>
+              <div class="original-price">
+                <div>6 060</div>
+                <div>₽</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image-wrapper">
+            <img
+              src="./img/lamp_markt.png"
+              alt="Встраиваемый светильник Markt"
+              class="product-image"
+            />
+            <button class="details-button">Подробнее</button>
+          </div>
+          <div class="product-details">
+            <h2 class="product-title">Встраиваемый светильник Markt</h2>
+            <div class="price-wrapper">
+              <div class="current-price">
+                <div>3 490</div>
+                <div>₽</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image-wrapper">
+            <img
+              src="./img/lamp_arg.png"
+              alt="Линейный светильник ARG"
+              class="product-image"
+            />
+            <div class="sale-badge">Акция</div>
+            <button class="details-button">Подробнее</button>
+          </div>
+          <div class="product-details">
+            <h2 class="product-title">Линейный светильник ARG</h2>
+            <div class="price-wrapper">
+              <div class="discount-price">
+                <div>6 700</div>
+                <div>₽</div>
+              </div>
+              <div class="original-price">
+                <div>6 060</div>
+                <div>₽</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image-wrapper">
+            <img
+              src="./img/lamp.png"
+              alt="Сведодиодный светильник"
+              class="product-image"
+            />
+            <button class="details-button">Подробнее</button>
+          </div>
+          <div class="product-details">
+            <h2 class="product-title">Сведодиодный светильник</h2>
+            <div class="price-wrapper">
+              <div class="current-price">
+                <div>5 060</div>
+                <div>₽</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image-wrapper">
+            <img
+              src="./img/lamp_markt.png"
+              alt="Встраиваемый светильник Markt"
+              class="product-image"
+            />
+            <div class="sale-badge">Акция</div>
+            <button class="details-button">Подробнее</button>
+          </div>
+          <div class="product-details">
+            <h2 class="product-title">Встраиваемый светильник Markt</h2>
+            <div class="price-wrapper">
+              <div class="discount-price">
+                <div>3 490</div>
+                <div>₽</div>
+              </div>
+              <div class="original-price">
+                <div>6 060</div>
+                <div>₽</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image-wrapper">
+            <img
+              src="./img/lamp_arg.png"
+              alt="Линейный светильник ARG"
+              class="product-image"
+            />
+            <button class="details-button">Подробнее</button>
+          </div>
+          <div class="product-details">
+            <h2 class="product-title">Линейный светильник ARG</h2>
+            <div class="price-wrapper">
+              <div class="current-price">
+                <div>6 700</div>
+                <div>₽</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-column">
+          <img
+            src="./img/Logowhite.png"
+            alt="Company Logo"
+            class="footer-logo"
+          />
+          <div class="footer-text">
+            Этот сайт защищен от спама службой reCAPTCHA Google.
+            <span class="underline">Политика конфиденциальности</span>
+            /
+            <span class="underline">Условия предоставления услуг</span>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <div class="footer-heading">Адрес</div>
+          <div class="footer-links">Текст, Текст, Текст</div>
+
+          <div class="footer-heading" style="margin-top: 38px">Контакты</div>
+          <div class="footer-links">
+            <div>Email: urban.dwelling@yandex.com</div>
+            <div>Телефон: 8 (999) 999-99-99</div>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <div class="footer-heading">Услуги</div>
+          <div class="footer-links">
+            <div>Каталог</div>
+            <div>О компании</div>
+            <div>Контакты</div>
+            <div>Доставка и оплата</div>
+            <div>Гарантия и возврат</div>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <div class="footer-text">
+            <div>Публичная оферта</div>
+            <div>Политика персональных данных</div>
+          </div>
+          <div>
+            <img
+              src="./img/mir.png"
+              alt="Payment Methods"
+              class="payment-methods"
+            />
+            <img
+              src="./img/visa.png"
+              alt="Payment Methods"
+              class="payment-methods"
+            />
+            <img
+              src="./img/master card.png"
+              alt="Payment Methods"
+              class="payment-methods"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</html>
